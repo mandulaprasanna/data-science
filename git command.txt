@@ -1,0 +1,54 @@
+  1. pwd
+    2  ls
+    3  ls-a
+    4  cd
+    5  cd desktop
+    6  cd ..
+    7  cd
+    8  cd desktop/
+    9  mkdir  ds
+   10  ls
+   11  cd  ds
+   12  ls
+   13  touch data.txt
+   14  ls
+   15  cat  data.txt
+   16  echo "ds">data.txt
+   17  cat  data.txt
+   18  nano  data.txt
+   19  cat  data.txt
+   20  nano test.txt
+   21  cat  test.txt
+   22  rm test.txt
+   23  ls
+   24  git init
+   25  git  status
+   26  git  add  data.txt
+   27  git status
+   28  git commit -m "first commit"
+   29  git  connfig--global user.email 'mandulaprasanna@gmail.com'
+   30  git config--global user.email 'mandulaprasanna@gmail.com'
+   31   git config--global user.email 'mandulaprasanna@gmail.com'
+   32  git config --global user.email 'mandulaprasanna@gmail.com'
+   33  git config --global user.name 'prasanna'
+   34  git config use.email
+   35  git config user.email
+   36  git config user.name
+   37  git commit -m "first commit "
+   38  nano data.txt
+   39  git status
+   40  git add data.txt
+   41  git commit -m "second commit"
+   42  git log
+   43  mkdir data-science
+   44  ls
+   45  git remote  -help
+   46  git remote add data-science https://github.com/mandulaprasanna/data-science
+   47  git remote show
+   48  git remote -v
+   49  git pull data-science master
+   50  git push --set-upstream data-science master
+   51  git push -f --set-upstream data-science master
+   52  history
+
+
